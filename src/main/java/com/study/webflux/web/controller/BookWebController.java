@@ -13,7 +13,7 @@ import reactor.core.publisher.Mono;
 @RestController
 @RequestMapping("/web/book")
 @AllArgsConstructor
-public class BookController {
+public class BookWebController {
 
     private final BookWebService bookWebService;
 
